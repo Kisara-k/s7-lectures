@@ -3,94 +3,94 @@
 ## Questions
 
 #### 1. Which of the following statements about Bluetooth are correct?  
-A) Bluetooth operates in the 2.4 - 2.48 GHz ISM band  
-B) Bluetooth supports slave-to-slave communication within a piconet  
-C) Bluetooth version 4.0 includes Bluetooth Low Energy protocols  
-D) Bluetooth high speed is based on ZigBee technology  
+A) Bluetooth supports slave-to-slave communication within a piconet  
+B) Bluetooth version 4.0 includes Bluetooth Low Energy protocols  
+C) Bluetooth high speed is based on ZigBee technology  
+D) Bluetooth operates in the 2.4 - 2.48 GHz ISM band  
 
 #### 2. When designing a simple protocol to control multiple lights in a room, which of the following considerations are relevant?  
-A) Choosing between TCP and UDP affects overhead and latency  
-B) The payload size should be minimized for efficiency  
-C) Ethernet layer is unnecessary for wireless protocols like Bluetooth  
-D) Topology choice impacts connectivity and robustness  
+A) The payload size should be minimized for efficiency  
+B) Topology choice impacts connectivity and robustness  
+C) Choosing between TCP and UDP affects overhead and latency  
+D) Ethernet layer is unnecessary for wireless protocols like Bluetooth  
 
 #### 3. Which of the following are true about Near Field Communication (NFC)?  
-A) NFC operates at a frequency of 13.56 MHz  
-B) NFC range is typically up to 10 meters  
-C) NFC uses magnetic field induction similar to RFID  
-D) NFC requires a pairing procedure before communication  
+A) NFC range is typically up to 10 meters  
+B) NFC operates at a frequency of 13.56 MHz  
+C) NFC requires a pairing procedure before communication  
+D) NFC uses magnetic field induction similar to RFID  
 
 #### 4. Regarding ZigBee, which statements are accurate?  
-A) ZigBee is designed for very low power consumption and long battery life  
-B) ZigBee supports mesh, star, and cluster tree topologies  
-C) ZigBee operates on the IEEE 802.15.4 physical and MAC layers  
-D) ZigBee devices cannot act as coordinators in the network  
+A) ZigBee supports mesh, star, and cluster tree topologies  
+B) ZigBee devices cannot act as coordinators in the network  
+C) ZigBee is designed for very low power consumption and long battery life  
+D) ZigBee operates on the IEEE 802.15.4 physical and MAC layers  
 
 #### 5. What are the key functions of the Bluetooth Link Management Protocol (LMP)?  
-A) Setting up and controlling the radio link between devices  
-B) Multiplexing multiple logical connections over a single physical link  
-C) Discovering services offered by other Bluetooth devices  
-D) Managing physical channels, error correction, and security  
+A) Multiplexing multiple logical connections over a single physical link  
+B) Managing physical channels, error correction, and security  
+C) Setting up and controlling the radio link between devices  
+D) Discovering services offered by other Bluetooth devices  
 
 #### 6. Which of the following are advantages of NFC compared to Bluetooth and ZigBee?  
 A) No need for search and pairing procedures  
-B) Higher data rate than Bluetooth classic  
+B) Longer communication range  
 C) Lower energy consumption  
-D) Longer communication range  
+D) Higher data rate than Bluetooth classic  
 
 #### 7. In a Bluetooth piconet, which of the following are true?  
-A) There can be up to 7 active slave devices connected to one master  
+A) Multiple piconets can be connected to form a scatternet  
 B) Slave devices can communicate directly with each other without the master  
-C) Up to 255 devices can be parked (inactive but connected)  
-D) Multiple piconets can be connected to form a scatternet  
+C) There can be up to 7 active slave devices connected to one master  
+D) Up to 255 devices can be parked (inactive but connected)  
 
 #### 8. Which of the following are true about ZigBee routing and network layer operations?  
-A) Route discovery is initiated only if no active route exists in the routing table  
-B) Routing requests (RREQ) are sent unicast to the destination device  
-C) Route maintenance involves tracking failed deliveries and initiating repairs  
-D) ZigBee uses a 32-bit network address space  
+A) ZigBee uses a 32-bit network address space  
+B) Route discovery is initiated only if no active route exists in the routing table  
+C) Routing requests (RREQ) are sent unicast to the destination device  
+D) Route maintenance involves tracking failed deliveries and initiating repairs  
 
 #### 9. Comparing Bluetooth, ZigBee, NFC, and low power WiFi, which statements are correct?  
-A) ZigBee typically offers the highest data rate among these technologies  
-B) NFC has the shortest communication range  
-C) Bluetooth and ZigBee both support network extendibility  
+A) Bluetooth and ZigBee both support network extendibility  
+B) ZigBee typically offers the highest data rate among these technologies  
+C) NFC has the shortest communication range  
 D) Low power WiFi generally consumes less power than ZigBee  
 
 #### 10. Which of the following are true about Bluetooth profiles?  
-A) Profiles define application protocols and behaviors on top of the Bluetooth core  
-B) Hands-Free Profile (HFP) is an example of a Bluetooth profile  
-C) Profiles are mandatory for all Bluetooth devices to function at the baseband layer  
-D) The Service Discovery Protocol (SDP) helps devices find available profiles  
+A) Hands-Free Profile (HFP) is an example of a Bluetooth profile  
+B) The Service Discovery Protocol (SDP) helps devices find available profiles  
+C) Profiles define application protocols and behaviors on top of the Bluetooth core  
+D) Profiles are mandatory for all Bluetooth devices to function at the baseband layer  
 
 #### 11. What are the characteristics of the IEEE 802.15.4 Reduced Functional Device (RFD) in ZigBee networks?  
-A) Can act as a PAN coordinator  
+A) Communicates only with a specific Full Functional Device (FFD)  
 B) Designed for applications with low data transmission needs  
-C) Communicates only with a specific Full Functional Device (FFD)  
-D) Supports multi-hop routing independently  
+C) Supports multi-hop routing independently  
+D) Can act as a PAN coordinator  
 
 #### 12. Which of the following statements about Bluetooth protocol stack layers are correct?  
-A) L2CAP provides segmentation and reassembly of packets over the air  
-B) OBEX is used for file transfer and object exchange  
-C) Baseband layer manages physical channels and performs error correction  
-D) RFCOMM is a physical layer protocol  
+A) RFCOMM is a physical layer protocol  
+B) Baseband layer manages physical channels and performs error correction  
+C) L2CAP provides segmentation and reassembly of packets over the air  
+D) OBEX is used for file transfer and object exchange  
 
 #### 13. Regarding NFC modes of operation, which are true?  
-A) In active mode, both devices generate their own electromagnetic fields  
+A) Passive mode involves one device using the electromagnetic field generated by the other  
 B) Passive mode requires both devices to generate electromagnetic fields  
-C) Passive mode involves one device using the electromagnetic field generated by the other  
+C) In active mode, both devices generate their own electromagnetic fields  
 D) Active mode is typically used for communication between a phone and an RFID tag  
 
 #### 14. Which of the following are disadvantages or limitations of NFC?  
-A) Low data rate compared to Bluetooth  
+A) Very short communication range limits applications  
 B) Requires complex configuration and pairing  
-C) Very short communication range limits applications  
-D) High energy consumption compared to ZigBee  
+C) High energy consumption compared to ZigBee  
+D) Low data rate compared to Bluetooth  
 
 #### 15. When controlling lights using TCP vs UDP, which statements are true regarding overhead and suitability?  
-A) TCP introduces higher overhead due to connection establishment and reliability features  
-B) UDP has lower overhead but does not guarantee delivery  
-C) TCP is always preferred for low-latency control applications  
-D) UDP combined with IP and Ethernet layers can reduce latency in simple control commands
+A) UDP has lower overhead but does not guarantee delivery  
+B) UDP combined with IP and Ethernet layers can reduce latency in simple control commands  
+C) TCP introduces higher overhead due to connection establishment and reliability features  
+D) TCP is always preferred for low-latency control applications  
 
 
 
@@ -99,135 +99,135 @@ D) UDP combined with IP and Ethernet layers can reduce latency in simple control
 ## Answers
 
 #### 1. Which of the following statements about Bluetooth are correct?  
-A) ✓ Bluetooth operates in the 2.4 - 2.48 GHz ISM band, as specified in the lecture.  
-B) ✗ Bluetooth piconet does not support slave-to-slave communication; all communication goes through the master.  
-C) ✓ Bluetooth version 4.0 includes Bluetooth Low Energy protocols, as mentioned.  
-D) ✗ Bluetooth high speed is based on Wi-Fi, not ZigBee.  
+A) ✗ Bluetooth piconet does not support slave-to-slave communication; all communication goes through the master.  
+B) ✓ Bluetooth version 4.0 includes Bluetooth Low Energy protocols, as mentioned.  
+C) ✗ Bluetooth high speed is based on Wi-Fi, not ZigBee.  
+D) ✓ Bluetooth operates in the 2.4 - 2.48 GHz ISM band, as specified in the lecture.  
 
-**Correct:** A, C
+**Correct:** B, D
 
 
 #### 2. When designing a simple protocol to control multiple lights in a room, which of the following considerations are relevant?  
-A) ✓ TCP vs UDP affects overhead and latency, important for control applications.  
-B) ✓ Minimizing payload size improves efficiency in constrained networks.  
-C) ✗ Ethernet layer can be relevant if wired or hybrid networks are used; not always unnecessary.  
-D) ✓ Topology affects connectivity and robustness, critical for network design.  
-
-**Correct:** A, B, D
-
-
-#### 3. Which of the following are true about Near Field Communication (NFC)?  
-A) ✓ NFC operates at 13.56 MHz frequency, as stated.  
-B) ✗ NFC range is up to 10 cm, not 10 meters.  
-C) ✓ NFC uses magnetic field induction similar to RFID technology.  
-D) ✗ NFC does not require pairing; it has no search and pair procedure.  
-
-**Correct:** A, C
-
-
-#### 4. Regarding ZigBee, which statements are accurate?  
-A) ✓ ZigBee is designed for very low power consumption and long battery life.  
-B) ✓ ZigBee supports star, mesh, and cluster tree topologies.  
-C) ✓ ZigBee builds on IEEE 802.15.4 physical and MAC layers.  
-D) ✗ ZigBee Full Functional Devices (FFD) can act as coordinators.  
+A) ✓ Minimizing payload size improves efficiency in constrained networks.  
+B) ✓ Topology affects connectivity and robustness, critical for network design.  
+C) ✓ TCP vs UDP affects overhead and latency, important for control applications.  
+D) ✗ Ethernet layer can be relevant if wired or hybrid networks are used; not always unnecessary.  
 
 **Correct:** A, B, C
 
 
-#### 5. What are the key functions of the Bluetooth Link Management Protocol (LMP)?  
-A) ✓ LMP sets up and controls the radio link between devices.  
-B) ✗ Multiplexing logical connections is done by L2CAP, not LMP.  
-C) ✗ Service Discovery Protocol (SDP) discovers services, not LMP.  
-D) ✗ Baseband layer manages physical channels and error correction, not LMP.  
+#### 3. Which of the following are true about Near Field Communication (NFC)?  
+A) ✗ NFC range is up to 10 cm, not 10 meters.  
+B) ✓ NFC operates at 13.56 MHz frequency, as stated.  
+C) ✗ NFC does not require pairing; it has no search and pair procedure.  
+D) ✓ NFC uses magnetic field induction similar to RFID technology.  
 
-**Correct:** A
+**Correct:** B, D
+
+
+#### 4. Regarding ZigBee, which statements are accurate?  
+A) ✓ ZigBee supports star, mesh, and cluster tree topologies.  
+B) ✗ ZigBee Full Functional Devices (FFD) can act as coordinators.  
+C) ✓ ZigBee is designed for very low power consumption and long battery life.  
+D) ✓ ZigBee builds on IEEE 802.15.4 physical and MAC layers.  
+
+**Correct:** A, C, D
+
+
+#### 5. What are the key functions of the Bluetooth Link Management Protocol (LMP)?  
+A) ✗ Multiplexing logical connections is done by L2CAP, not LMP.  
+B) ✗ Baseband layer manages physical channels and error correction, not LMP.  
+C) ✓ LMP sets up and controls the radio link between devices.  
+D) ✗ Service Discovery Protocol (SDP) discovers services, not LMP.  
+
+**Correct:** C
 
 
 #### 6. Which of the following are advantages of NFC compared to Bluetooth and ZigBee?  
 A) ✓ NFC requires no search and pairing procedure, simplifying use.  
-B) ✗ NFC has lower data rate than Bluetooth classic.  
+B) ✗ NFC has very short range, not longer than others.  
 C) ✓ NFC has low energy consumption.  
-D) ✗ NFC has very short range, not longer than others.  
+D) ✗ NFC has lower data rate than Bluetooth classic.  
 
 **Correct:** A, C
 
 
 #### 7. In a Bluetooth piconet, which of the following are true?  
-A) ✓ Up to 7 active slaves can connect to one master.  
+A) ✓ Multiple piconets can connect to form a scatternet.  
 B) ✗ Slave-to-slave communication is not allowed; all go through master.  
-C) ✓ Up to 255 devices can be parked (inactive but connected).  
-D) ✓ Multiple piconets can connect to form a scatternet.  
+C) ✓ Up to 7 active slaves can connect to one master.  
+D) ✓ Up to 255 devices can be parked (inactive but connected).  
 
 **Correct:** A, C, D
 
 
 #### 8. Which of the following are true about ZigBee routing and network layer operations?  
-A) ✓ Route discovery starts only if no active route exists.  
-B) ✗ Routing requests (RREQ) are broadcast, not unicast.  
-C) ✓ Route maintenance tracks failed deliveries and initiates repairs.  
-D) ✗ ZigBee uses a 16-bit network address space, not 32-bit.  
+A) ✗ ZigBee uses a 16-bit network address space, not 32-bit.  
+B) ✓ Route discovery starts only if no active route exists.  
+C) ✗ Routing requests (RREQ) are broadcast, not unicast.  
+D) ✓ Route maintenance tracks failed deliveries and initiates repairs.  
+
+**Correct:** B, D
+
+
+#### 9. Comparing Bluetooth, ZigBee, NFC, and low power WiFi, which statements are correct?  
+A) ✓ Both Bluetooth and ZigBee support network extendibility.  
+B) ✗ ZigBee has lower data rate (250 Kbps) than Bluetooth and WiFi.  
+C) ✓ NFC has the shortest communication range among these.  
+D) ✗ Low power WiFi generally consumes more power than ZigBee.  
 
 **Correct:** A, C
 
 
-#### 9. Comparing Bluetooth, ZigBee, NFC, and low power WiFi, which statements are correct?  
-A) ✗ ZigBee has lower data rate (250 Kbps) than Bluetooth and WiFi.  
-B) ✓ NFC has the shortest communication range among these.  
-C) ✓ Both Bluetooth and ZigBee support network extendibility.  
-D) ✗ Low power WiFi generally consumes more power than ZigBee.  
-
-**Correct:** B, C
-
-
 #### 10. Which of the following are true about Bluetooth profiles?  
-A) ✓ Profiles define application protocols and behaviors on top of Bluetooth core.  
-B) ✓ Hands-Free Profile (HFP) is an example of a Bluetooth profile.  
-C) ✗ Profiles are optional; baseband layer functions without them.  
-D) ✓ Service Discovery Protocol (SDP) helps devices find available profiles.  
-
-**Correct:** A, B, D
-
-
-#### 11. What are the characteristics of the IEEE 802.15.4 Reduced Functional Device (RFD) in ZigBee networks?  
-A) ✗ RFD cannot act as PAN coordinator; only FFD can.  
-B) ✓ RFD is designed for low data transmission applications.  
-C) ✓ RFD communicates only with a specific FFD.  
-D) ✗ RFD does not support multi-hop routing independently.  
-
-**Correct:** B, C
-
-
-#### 12. Which of the following statements about Bluetooth protocol stack layers are correct?  
-A) ✓ L2CAP provides segmentation and reassembly of packets.  
-B) ✓ OBEX is used for file transfer and object exchange.  
-C) ✓ Baseband layer manages physical channels and error correction.  
-D) ✗ RFCOMM is a transport protocol, not physical layer.  
+A) ✓ Hands-Free Profile (HFP) is an example of a Bluetooth profile.  
+B) ✓ Service Discovery Protocol (SDP) helps devices find available profiles.  
+C) ✓ Profiles define application protocols and behaviors on top of Bluetooth core.  
+D) ✗ Profiles are optional; baseband layer functions without them.  
 
 **Correct:** A, B, C
 
 
+#### 11. What are the characteristics of the IEEE 802.15.4 Reduced Functional Device (RFD) in ZigBee networks?  
+A) ✓ RFD communicates only with a specific FFD.  
+B) ✓ RFD is designed for low data transmission applications.  
+C) ✗ RFD does not support multi-hop routing independently.  
+D) ✗ RFD cannot act as PAN coordinator; only FFD can.  
+
+**Correct:** A, B
+
+
+#### 12. Which of the following statements about Bluetooth protocol stack layers are correct?  
+A) ✗ RFCOMM is a transport protocol, not physical layer.  
+B) ✓ Baseband layer manages physical channels and error correction.  
+C) ✓ L2CAP provides segmentation and reassembly of packets.  
+D) ✓ OBEX is used for file transfer and object exchange.  
+
+**Correct:** B, C, D
+
+
 #### 13. Regarding NFC modes of operation, which are true?  
-A) ✓ In active mode, both devices generate electromagnetic fields.  
+A) ✓ Passive mode involves one device using the other's electromagnetic field.  
 B) ✗ Passive mode has only one device generating the field.  
-C) ✓ Passive mode involves one device using the other's electromagnetic field.  
+C) ✓ In active mode, both devices generate electromagnetic fields.  
 D) ✗ Active mode is typically used between two phones, not phone and RFID tag.  
 
 **Correct:** A, C
 
 
 #### 14. Which of the following are disadvantages or limitations of NFC?  
-A) ✓ NFC has lower data rate compared to Bluetooth.  
+A) ✓ Very short communication range limits applications.  
 B) ✗ NFC requires less configuration and no pairing, so not complex.  
-C) ✓ Very short communication range limits applications.  
-D) ✗ NFC has low energy consumption, not high.  
+C) ✗ NFC has low energy consumption, not high.  
+D) ✓ NFC has lower data rate compared to Bluetooth.  
 
-**Correct:** A, C
+**Correct:** A, D
 
 
 #### 15. When controlling lights using TCP vs UDP, which statements are true regarding overhead and suitability?  
-A) ✓ TCP has higher overhead due to connection setup and reliability.  
-B) ✓ UDP has lower overhead but no delivery guarantee.  
-C) ✗ TCP is not always preferred for low-latency control; UDP often better.  
-D) ✓ UDP with IP and Ethernet layers can reduce latency for simple commands.  
+A) ✓ UDP has lower overhead but no delivery guarantee.  
+B) ✓ UDP with IP and Ethernet layers can reduce latency for simple commands.  
+C) ✓ TCP has higher overhead due to connection setup and reliability.  
+D) ✗ TCP is not always preferred for low-latency control; UDP often better.  
 
-**Correct:** A, B, D
+**Correct:** A, B, C

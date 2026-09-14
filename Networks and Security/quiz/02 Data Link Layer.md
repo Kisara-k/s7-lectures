@@ -3,10 +3,10 @@
 ## Questions
 
 #### 1. Which of the following are primary functions of the Data Link Layer?  
-A) Synchronisation  
-B) Routing  
-C) Error control  
-D) Media access control  
+A) Error control  
+B) Synchronisation  
+C) Media access control  
+D) Routing  
 
 #### 2. What is the main objective of synchronisation at the Data Link Layer?  
 A) To encrypt data for privacy  
@@ -21,21 +21,21 @@ C) Packet switching
 D) Character-oriented framing using STX and ETX characters  
 
 #### 4. What problems can arise from synchronisation methods in the Data Link Layer?  
-A) Data loss due to missing flags or control characters  
-B) Increased throughput due to compression  
-C) Data errors caused by control characters appearing in data  
-D) Guaranteed error-free transmission  
+A) Data errors caused by control characters appearing in data  
+B) Guaranteed error-free transmission  
+C) Increased throughput due to compression  
+D) Data loss due to missing flags or control characters  
 
 #### 5. Which error detection techniques are commonly used at the Data Link Layer?  
-A) Parity bits  
-B) Checksum  
+A) Checksum  
+B) Parity bits  
 C) Cyclic Redundancy Check (CRC)  
 D) Forward Error Correction (FEC)  
 
 #### 6. Forward Error Correction (FEC) is best suited for which of the following scenarios?  
 A) Simplex transmission where retransmission is not possible  
-B) High-latency links such as satellite communication  
-C) Low-latency voice and video communication requiring minimal delay  
+B) Low-latency voice and video communication requiring minimal delay  
+C) High-latency links such as satellite communication  
 D) Networks where error correction is not needed  
 
 #### 7. In Automatic Repeat Request (ARQ) protocols, what is the role of the sequence numbers V(S) and V(R)?  
@@ -45,10 +45,10 @@ C) V(S) and V(R) are used to encrypt data frames
 D) They maintain the sliding window for flow control  
 
 #### 8. Which of the following statements about Continuous ARQ (sliding window) protocols are true?  
-A) The sender can send multiple frames before needing an acknowledgment  
-B) NAKs (Negative Acknowledgments) are used to request retransmission of erroneous frames  
-C) The window size is unlimited and can be any number  
-D) A 3-bit field is often used for sequence numbering, limiting the window size to 7  
+A) A 3-bit field is often used for sequence numbering, limiting the window size to 7  
+B) The sender can send multiple frames before needing an acknowledgment  
+C) NAKs (Negative Acknowledgments) are used to request retransmission of erroneous frames  
+D) The window size is unlimited and can be any number  
 
 #### 9. Which flow control methods are used at the Data Link Layer?  
 A) In-band flow control such as X-on/X-off  
@@ -57,16 +57,16 @@ C) Token passing
 D) Packet switching  
 
 #### 10. Which of the following statements about data compression at the Data Link Layer are correct?  
-A) It is based on probability theory and symbol frequency  
-B) It assumes all symbols have equal probability  
-C) It can use the probability of previous symbols to predict the next symbol  
-D) It is primarily used to detect errors in transmission  
+A) It is primarily used to detect errors in transmission  
+B) It can use the probability of previous symbols to predict the next symbol  
+C) It is based on probability theory and symbol frequency  
+D) It assumes all symbols have equal probability  
 
 #### 11. Which of the following are true about encryption at the Data Link Layer?  
 A) It ensures privacy and authenticity of data  
-B) It uses only single-key encryption algorithms  
+B) It replaces error control mechanisms  
 C) It can use public-key (two-key) encryption algorithms  
-D) It replaces error control mechanisms  
+D) It uses only single-key encryption algorithms  
 
 #### 12. In Medium Access Control (MAC), what distinguishes primary/secondary systems from peer-to-peer systems?  
 A) Primary/secondary systems use polling or non-polling methods  
@@ -75,22 +75,22 @@ C) Peer-to-peer systems include protocols like CSMA and Token Ring
 D) Primary/secondary systems always use token passing  
 
 #### 13. Which of the following are characteristics of the Aloha protocol?  
-A) Stations transmit whenever they have data, leading to possible collisions  
-B) Collisions are detected and retransmissions are scheduled  
-C) Performance improves as traffic increases  
+A) Collisions are detected and retransmissions are scheduled  
+B) Performance improves as traffic increases  
+C) Stations transmit whenever they have data, leading to possible collisions  
 D) It is a collision-free protocol  
 
 #### 14. How does CSMA/CD improve channel utilization compared to pure CSMA?  
-A) By monitoring the channel while transmitting and aborting on collision detection  
-B) By waiting a random time before retransmission to avoid repeated collisions  
-C) By guaranteeing collision-free transmission through token passing  
-D) By using fixed time slots for each station  
+A) By using fixed time slots for each station  
+B) By guaranteeing collision-free transmission through token passing  
+C) By monitoring the channel while transmitting and aborting on collision detection  
+D) By waiting a random time before retransmission to avoid repeated collisions  
 
 #### 15. Which of the following statements about Token Ring and Token Bus networks are correct?  
-A) Token Ring uses a logical ring structure and passes a token to control access  
+A) Token Ring networks always have a centralized token management system  
 B) Token Bus combines ring topology with bus physical topology  
-C) Token Ring networks always have a centralized token management system  
-D) Token Bus networks circulate a token via the bus in a predetermined sequence
+C) Token Ring uses a logical ring structure and passes a token to control access  
+D) Token Bus networks circulate a token via the bus in a predetermined sequence  
 
 
 
@@ -99,12 +99,12 @@ D) Token Bus networks circulate a token via the bus in a predetermined sequence
 ## Answers
 
 #### 1. Which of the following are primary functions of the Data Link Layer?  
-A) ✓ Synchronisation is a core function to identify frame boundaries.  
-B) ✗ Routing is a Network Layer function, not Data Link Layer.  
-C) ✓ Error control is essential to detect and correct errors in frames.  
-D) ✓ Media access control manages access to shared physical media.  
+A) ✓ Error control is essential to detect and correct errors in frames.  
+B) ✓ Synchronisation is a core function to identify frame boundaries.  
+C) ✓ Media access control manages access to shared physical media.  
+D) ✗ Routing is a Network Layer function, not Data Link Layer.  
 
-**Correct:** A, C, D
+**Correct:** A, B, C
 
 
 #### 2. What is the main objective of synchronisation at the Data Link Layer?  
@@ -126,17 +126,17 @@ D) ✓ Character-oriented framing uses special characters (STX/ETX) to mark fram
 
 
 #### 4. What problems can arise from synchronisation methods in the Data Link Layer?  
-A) ✓ Data loss can occur if flags or control characters are lost.  
-B) ✗ Compression improves throughput, not a synchronisation problem.  
-C) ✓ Control characters appearing in data can cause framing errors.  
-D) ✗ Synchronisation does not guarantee error-free transmission.  
+A) ✓ Control characters appearing in data can cause framing errors.  
+B) ✗ Synchronisation does not guarantee error-free transmission.  
+C) ✗ Compression improves throughput, not a synchronisation problem.  
+D) ✓ Data loss can occur if flags or control characters are lost.  
 
-**Correct:** A, C
+**Correct:** A, D
 
 
 #### 5. Which error detection techniques are commonly used at the Data Link Layer?  
-A) ✓ Parity bits are a simple error detection method.  
-B) ✓ Checksum is used to detect errors in data frames.  
+A) ✓ Checksum is used to detect errors in data frames.  
+B) ✓ Parity bits are a simple error detection method.  
 C) ✓ CRC is a powerful error detection code widely used.  
 D) ✗ Forward Error Correction is an error correction, not detection, technique.  
 
@@ -145,11 +145,11 @@ D) ✗ Forward Error Correction is an error correction, not detection, technique
 
 #### 6. Forward Error Correction (FEC) is best suited for which of the following scenarios?  
 A) ✓ Simplex transmission where retransmission is impossible benefits from FEC.  
-B) ✓ High-latency links like satellite use FEC to avoid retransmission delays.  
-C) ✗ Low-latency voice/video usually prefer ARQ or no correction due to delay.  
+B) ✗ Low-latency voice/video usually prefer ARQ or no correction due to delay.  
+C) ✓ High-latency links like satellite use FEC to avoid retransmission delays.  
 D) ✗ Networks not needing error correction do not use FEC.  
 
-**Correct:** A, B
+**Correct:** A, C
 
 
 #### 7. In Automatic Repeat Request (ARQ) protocols, what is the role of the sequence numbers V(S) and V(R)?  
@@ -162,12 +162,12 @@ D) ✓ They maintain the sliding window for flow and error control.
 
 
 #### 8. Which of the following statements about Continuous ARQ (sliding window) protocols are true?  
-A) ✓ Sender can send multiple frames before waiting for ACKs.  
-B) ✓ NAKs request retransmission of erroneous frames.  
-C) ✗ Window size is limited by sequence number bits (e.g., 7 for 3-bit).  
-D) ✓ 3-bit sequence numbers limit window size to 7 frames.  
+A) ✓ 3-bit sequence numbers limit window size to 7 frames.  
+B) ✓ Sender can send multiple frames before waiting for ACKs.  
+C) ✓ NAKs request retransmission of erroneous frames.  
+D) ✗ Window size is limited by sequence number bits (e.g., 7 for 3-bit).  
 
-**Correct:** A, B, D
+**Correct:** A, B, C
 
 
 #### 9. Which flow control methods are used at the Data Link Layer?  
@@ -180,19 +180,19 @@ D) ✗ Packet switching is unrelated to flow control at this layer.
 
 
 #### 10. Which of the following statements about data compression at the Data Link Layer are correct?  
-A) ✓ Compression relies on unequal symbol probabilities.  
-B) ✗ It assumes symbols have equal probability, which is false.  
-C) ✓ Probability of next symbol can depend on previous symbols.  
-D) ✗ Compression is not used for error detection.  
+A) ✗ Compression is not used for error detection.  
+B) ✓ Probability of next symbol can depend on previous symbols.  
+C) ✓ Compression relies on unequal symbol probabilities.  
+D) ✗ It assumes symbols have equal probability, which is false.  
 
-**Correct:** A, C
+**Correct:** B, C
 
 
 #### 11. Which of the following are true about encryption at the Data Link Layer?  
 A) ✓ Encryption ensures privacy and authenticity.  
-B) ✗ Only single-key encryption is not true; public-key is also used.  
+B) ✗ Encryption does not replace error control mechanisms.  
 C) ✓ Public-key (two-key) encryption can be used.  
-D) ✗ Encryption does not replace error control mechanisms.  
+D) ✗ Only single-key encryption is not true; public-key is also used.  
 
 **Correct:** A, C
 
@@ -207,27 +207,27 @@ D) ✗ Primary/secondary do not always use token passing.
 
 
 #### 13. Which of the following are characteristics of the Aloha protocol?  
-A) ✓ Stations transmit whenever they have data, causing collisions.  
-B) ✓ Collisions are detected and retransmissions occur.  
-C) ✗ Performance degrades as traffic increases, not improves.  
+A) ✓ Collisions are detected and retransmissions occur.  
+B) ✗ Performance degrades as traffic increases, not improves.  
+C) ✓ Stations transmit whenever they have data, causing collisions.  
 D) ✗ Aloha is not collision-free.  
 
-**Correct:** A, B
+**Correct:** A, C
 
 
 #### 14. How does CSMA/CD improve channel utilization compared to pure CSMA?  
-A) ✓ Stations monitor channel during transmission and abort on collision.  
-B) ✓ Random wait times reduce repeated collisions.  
-C) ✗ Token passing guarantees collision-free but is not part of CSMA/CD.  
-D) ✗ Fixed time slots are used in TDMA, not CSMA/CD.  
+A) ✗ Fixed time slots are used in TDMA, not CSMA/CD.  
+B) ✗ Token passing guarantees collision-free but is not part of CSMA/CD.  
+C) ✓ Stations monitor channel during transmission and abort on collision.  
+D) ✓ Random wait times reduce repeated collisions.  
 
-**Correct:** A, B
+**Correct:** C, D
 
 
 #### 15. Which of the following statements about Token Ring and Token Bus networks are correct?  
-A) ✓ Token Ring uses a logical ring and token passing for access control.  
+A) ✗ Token Ring can be centralized or distributed; not always centralized.  
 B) ✓ Token Bus combines ring logic with bus physical topology.  
-C) ✗ Token Ring can be centralized or distributed; not always centralized.  
+C) ✓ Token Ring uses a logical ring and token passing for access control.  
 D) ✓ Token Bus circulates token via bus in a predetermined sequence.  
 
-**Correct:** A, B, D
+**Correct:** B, C, D

@@ -3,94 +3,94 @@
 ## Questions
 
 #### 1. Which of the following statements correctly describe the differences between TCP and UDP?  
-A) TCP is connection-oriented and provides reliable data transfer, while UDP is connectionless and does not guarantee reliability.  
+A) TCP provides flow control and congestion control, whereas UDP does not.  
 B) UDP uses ports for multiplexing, but TCP does not use ports.  
-C) TCP provides flow control and congestion control, whereas UDP does not.  
-D) UDP segments include sequence numbers for ordering, but TCP segments do not.
+C) UDP segments include sequence numbers for ordering, but TCP segments do not.  
+D) TCP is connection-oriented and provides reliable data transfer, while UDP is connectionless and does not guarantee reliability.  
 
 #### 2. Regarding port numbers in TCP and UDP, which of the following are true?  
-A) Ports are 16-bit integers ranging from 0 to 65535.  
-B) Ports below 1024 are considered privileged and usually require system privileges to use.  
-C) Each TCP or UDP segment contains only the destination port, not the source port.  
-D) The combination of source IP, source port, destination IP, and destination port uniquely identifies a connection.
+A) Each TCP or UDP segment contains only the destination port, not the source port.  
+B) Ports are 16-bit integers ranging from 0 to 65535.  
+C) Ports below 1024 are considered privileged and usually require system privileges to use.  
+D) The combination of source IP, source port, destination IP, and destination port uniquely identifies a connection.  
 
 #### 3. Which of the following are characteristics of UDP?  
-A) It adds a checksum to detect errors in the datagram.  
-B) It guarantees in-order delivery of packets.  
+A) It establishes a connection before sending data.  
+B) It adds a checksum to detect errors in the datagram.  
 C) It is suitable for applications like VoIP and DNS.  
-D) It establishes a connection before sending data.
+D) It guarantees in-order delivery of packets.  
 
 #### 4. What is the maximum size of TCP data in a segment, assuming no IP or TCP options?  
-A) 65535 bytes  
-B) 65515 bytes  
+A) 65515 bytes  
+B) 65535 bytes  
 C) 65495 bytes  
-D) 65520 bytes
+D) 65520 bytes  
 
 #### 5. Which of the following statements about TCP’s three-way handshake are correct?  
 A) The client sends a SYN packet with a random initial sequence number and ACK bit set.  
-B) The server responds with a SYN-ACK packet acknowledging the client’s sequence number plus one.  
-C) The client completes the handshake by sending a SYN-ACK packet with updated sequence and acknowledgment numbers.  
-D) If any handshake packet is lost, the sender retransmits after a timeout.
+B) If any handshake packet is lost, the sender retransmits after a timeout.  
+C) The server responds with a SYN-ACK packet acknowledging the client’s sequence number plus one.  
+D) The client completes the handshake by sending a SYN-ACK packet with updated sequence and acknowledgment numbers.  
 
 #### 6. In TCP, what does the acknowledgment number represent?  
-A) The sequence number of the last byte received correctly.  
-B) The sequence number of the next byte expected from the sender.  
-C) The total number of bytes received so far.  
-D) The number of segments acknowledged cumulatively.
+A) The sequence number of the next byte expected from the sender.  
+B) The sequence number of the last byte received correctly.  
+C) The number of segments acknowledged cumulatively.  
+D) The total number of bytes received so far.  
 
 #### 7. Which of the following are true about TCP flow control?  
-A) The receive window specifies the number of bytes the receiver is willing to accept.  
+A) Flow control is implemented by adjusting the congestion window size.  
 B) Flow control prevents the sender from overwhelming the receiver.  
-C) The receive window is measured in segments, not bytes.  
-D) Flow control is implemented by adjusting the congestion window size.
+C) The receive window specifies the number of bytes the receiver is willing to accept.  
+D) The receive window is measured in segments, not bytes.  
 
 #### 8. Which TCP flags are involved in connection establishment and termination?  
-A) SYN and ACK for connection establishment.  
+A) PSH for urgent data during connection setup.  
 B) FIN and ACK for connection termination.  
 C) RST for resetting a connection.  
-D) PSH for urgent data during connection setup.
+D) SYN and ACK for connection establishment.  
 
 #### 9. Which of the following are valid reasons for TCP retransmissions?  
 A) Timeout expiration without receiving an acknowledgment.  
 B) Receipt of duplicate acknowledgments indicating possible packet loss.  
 C) Receiving an out-of-order segment.  
-D) When the sender’s buffer is full.
+D) When the sender’s buffer is full.  
 
 #### 10. How does TCP estimate the retransmission timeout (RTO)?  
-A) By using the most recent SampleRTT measurement only.  
-B) By averaging several recent SampleRTT measurements to smooth out variations.  
-C) By setting the timeout shorter than the estimated RTT to detect losses quickly.  
-D) By ignoring retransmissions when calculating SampleRTT.
+A) By averaging several recent SampleRTT measurements to smooth out variations.  
+B) By setting the timeout shorter than the estimated RTT to detect losses quickly.  
+C) By ignoring retransmissions when calculating SampleRTT.  
+D) By using the most recent SampleRTT measurement only.  
 
 #### 11. Which of the following statements about TCP connection states are correct?  
-A) The "listen" state means the server is waiting for an incoming connection request.  
-B) The "syn sent" state indicates the client has sent a SYN and is waiting for a SYN-ACK.  
-C) The "close wait" state means the connection is fully closed.  
-D) The "timed wait" state ensures all packets have been received and acknowledged before closing.
+A) The "timed wait" state ensures all packets have been received and acknowledged before closing.  
+B) The "close wait" state means the connection is fully closed.  
+C) The "syn sent" state indicates the client has sent a SYN and is waiting for a SYN-ACK.  
+D) The "listen" state means the server is waiting for an incoming connection request.  
 
 #### 12. Regarding TCP segment structure, which fields are correctly matched with their purpose?  
-A) Sequence number: identifies the byte stream number of the first data byte in the segment.  
-B) Acknowledgment number: cumulative acknowledgment of received bytes.  
-C) Urgent pointer: used to indicate urgent data, commonly used in modern TCP implementations.  
-D) Header length: specifies the length of the TCP header in 32-bit words.
+A) Acknowledgment number: cumulative acknowledgment of received bytes.  
+B) Header length: specifies the length of the TCP header in 32-bit words.  
+C) Sequence number: identifies the byte stream number of the first data byte in the segment.  
+D) Urgent pointer: used to indicate urgent data, commonly used in modern TCP implementations.  
 
 #### 13. Which of the following statements about ports and services are true?  
-A) Well-known ports are assigned to common services like HTTP and DNS.  
-B) Clients typically use well-known ports to initiate connections.  
-C) Servers listen on specific ports to accept incoming connections.  
-D) The combination of client source port and server destination port is sufficient to identify a connection.
+A) The combination of client source port and server destination port is sufficient to identify a connection.  
+B) Servers listen on specific ports to accept incoming connections.  
+C) Clients typically use well-known ports to initiate connections.  
+D) Well-known ports are assigned to common services like HTTP and DNS.  
 
 #### 14. In the context of TCP reliable data transfer, which of the following are true?  
-A) TCP uses cumulative acknowledgments to confirm receipt of all bytes up to a certain point.  
+A) TCP guarantees delivery of data in the exact order it was sent.  
 B) TCP segments are retransmitted only when a timeout occurs, never on duplicate ACKs.  
-C) TCP discards corrupted packets detected by checksum errors.  
-D) TCP guarantees delivery of data in the exact order it was sent.
+C) TCP uses cumulative acknowledgments to confirm receipt of all bytes up to a certain point.  
+D) TCP discards corrupted packets detected by checksum errors.  
 
 #### 15. Which of the following describe the relationship between IP, TCP, and data link layers?  
-A) TCP segments are encapsulated within IP packets.  
+A) UDP headers are added after the IP header but before the data link header.  
 B) IP packets are encapsulated within data link layer frames.  
-C) UDP headers are added after the IP header but before the data link header.  
-D) The data link layer is responsible for routing packets across the Internet.
+C) The data link layer is responsible for routing packets across the Internet.  
+D) TCP segments are encapsulated within IP packets.  
 
 
 
@@ -99,35 +99,35 @@ D) The data link layer is responsible for routing packets across the Internet.
 ## Answers
 
 #### 1. Which of the following statements correctly describe the differences between TCP and UDP?  
-A) ✓ TCP is connection-oriented and provides reliable data transfer, while UDP is connectionless and does not guarantee reliability.  
+A) ✓ TCP provides flow control and congestion control, whereas UDP does not.  
 B) ✗ UDP uses ports for multiplexing, but TCP does not use ports. (Both use ports.)  
-C) ✓ TCP provides flow control and congestion control, whereas UDP does not.  
-D) ✗ UDP segments include sequence numbers for ordering, but TCP segments do not. (Only TCP uses sequence numbers.)  
+C) ✗ UDP segments include sequence numbers for ordering, but TCP segments do not. (Only TCP uses sequence numbers.)  
+D) ✓ TCP is connection-oriented and provides reliable data transfer, while UDP is connectionless and does not guarantee reliability.  
 
-**Correct:** A, C
+**Correct:** A, D
 
 
 #### 2. Regarding port numbers in TCP and UDP, which of the following are true?  
-A) ✓ Ports are 16-bit integers ranging from 0 to 65535.  
-B) ✓ Ports below 1024 are considered privileged and usually require system privileges to use.  
-C) ✗ Each TCP or UDP segment contains only the destination port, not the source port. (Both source and destination ports are included.)  
+A) ✗ Each TCP or UDP segment contains only the destination port, not the source port. (Both source and destination ports are included.)  
+B) ✓ Ports are 16-bit integers ranging from 0 to 65535.  
+C) ✓ Ports below 1024 are considered privileged and usually require system privileges to use.  
 D) ✓ The combination of source IP, source port, destination IP, and destination port uniquely identifies a connection.  
 
-**Correct:** A, B, D
+**Correct:** B, C, D
 
 
 #### 3. Which of the following are characteristics of UDP?  
-A) ✓ It adds a checksum to detect errors in the datagram.  
-B) ✗ It guarantees in-order delivery of packets. (UDP does not guarantee order.)  
+A) ✗ It establishes a connection before sending data. (UDP is connectionless.)  
+B) ✓ It adds a checksum to detect errors in the datagram.  
 C) ✓ It is suitable for applications like VoIP and DNS.  
-D) ✗ It establishes a connection before sending data. (UDP is connectionless.)  
+D) ✗ It guarantees in-order delivery of packets. (UDP does not guarantee order.)  
 
-**Correct:** A, C
+**Correct:** B, C
 
 
 #### 4. What is the maximum size of TCP data in a segment, assuming no IP or TCP options?  
-A) ✗ 65535 bytes (This is max IP packet size including headers.)  
-B) ✗ 65515 bytes (This is max IP packet minus IP header.)  
+A) ✗ 65515 bytes (This is max IP packet minus IP header.)  
+B) ✗ 65535 bytes (This is max IP packet size including headers.)  
 C) ✓ 65495 bytes (Max TCP data = 65535 - 20 (IP header) - 20 (TCP header))  
 D) ✗ 65520 bytes (Incorrect calculation.)  
 
@@ -136,38 +136,38 @@ D) ✗ 65520 bytes (Incorrect calculation.)
 
 #### 5. Which of the following statements about TCP’s three-way handshake are correct?  
 A) ✗ The client sends a SYN packet with a random initial sequence number and ACK bit set. (ACK bit is reset in first SYN.)  
-B) ✓ The server responds with a SYN-ACK packet acknowledging the client’s sequence number plus one.  
-C) ✗ The client completes the handshake by sending a SYN-ACK packet with updated sequence and acknowledgment numbers. (Client sends ACK only, no SYN in last step.)  
-D) ✓ If any handshake packet is lost, the sender retransmits after a timeout.  
+B) ✓ If any handshake packet is lost, the sender retransmits after a timeout.  
+C) ✓ The server responds with a SYN-ACK packet acknowledging the client’s sequence number plus one.  
+D) ✗ The client completes the handshake by sending a SYN-ACK packet with updated sequence and acknowledgment numbers. (Client sends ACK only, no SYN in last step.)  
 
-**Correct:** B, D
+**Correct:** B, C
 
 
 #### 6. In TCP, what does the acknowledgment number represent?  
-A) ✗ The sequence number of the last byte received correctly. (It is the next expected byte number.)  
-B) ✓ The sequence number of the next byte expected from the sender.  
-C) ✗ The total number of bytes received so far. (Not cumulative count, but next expected byte.)  
-D) ✗ The number of segments acknowledged cumulatively. (ACK is byte-based, not segment-based.)  
+A) ✓ The sequence number of the next byte expected from the sender.  
+B) ✗ The sequence number of the last byte received correctly. (It is the next expected byte number.)  
+C) ✗ The number of segments acknowledged cumulatively. (ACK is byte-based, not segment-based.)  
+D) ✗ The total number of bytes received so far. (Not cumulative count, but next expected byte.)  
 
-**Correct:** B
+**Correct:** A
 
 
 #### 7. Which of the following are true about TCP flow control?  
-A) ✓ The receive window specifies the number of bytes the receiver is willing to accept.  
+A) ✗ Flow control is implemented by adjusting the congestion window size. (Congestion control is separate from flow control.)  
 B) ✓ Flow control prevents the sender from overwhelming the receiver.  
-C) ✗ The receive window is measured in segments, not bytes. (Measured in bytes.)  
-D) ✗ Flow control is implemented by adjusting the congestion window size. (Congestion control is separate from flow control.)  
+C) ✓ The receive window specifies the number of bytes the receiver is willing to accept.  
+D) ✗ The receive window is measured in segments, not bytes. (Measured in bytes.)  
 
-**Correct:** A, B
+**Correct:** B, C
 
 
 #### 8. Which TCP flags are involved in connection establishment and termination?  
-A) ✓ SYN and ACK for connection establishment.  
+A) ✗ PSH for urgent data during connection setup. (PSH is for pushing data, not connection setup.)  
 B) ✓ FIN and ACK for connection termination.  
 C) ✓ RST for resetting a connection.  
-D) ✗ PSH for urgent data during connection setup. (PSH is for pushing data, not connection setup.)  
+D) ✓ SYN and ACK for connection establishment.  
 
-**Correct:** A, B, C
+**Correct:** B, C, D
 
 
 #### 9. Which of the following are valid reasons for TCP retransmissions?  
@@ -180,54 +180,54 @@ D) ✗ When the sender’s buffer is full. (Buffer fullness does not trigger ret
 
 
 #### 10. How does TCP estimate the retransmission timeout (RTO)?  
-A) ✗ By using the most recent SampleRTT measurement only. (This is too variable.)  
-B) ✓ By averaging several recent SampleRTT measurements to smooth out variations.  
-C) ✗ By setting the timeout shorter than the estimated RTT to detect losses quickly. (Timeout must be longer than RTT.)  
-D) ✓ By ignoring retransmissions when calculating SampleRTT.  
-
-**Correct:** B, D
-
-
-#### 11. Which of the following statements about TCP connection states are correct?  
-A) ✓ The "listen" state means the server is waiting for an incoming connection request.  
-B) ✓ The "syn sent" state indicates the client has sent a SYN and is waiting for a SYN-ACK.  
-C) ✗ The "close wait" state means the connection is fully closed. (It means the other side initiated close; local side still open.)  
-D) ✓ The "timed wait" state ensures all packets have been received and acknowledged before closing.  
-
-**Correct:** A, B, D
-
-
-#### 12. Regarding TCP segment structure, which fields are correctly matched with their purpose?  
-A) ✓ Sequence number: identifies the byte stream number of the first data byte in the segment.  
-B) ✓ Acknowledgment number: cumulative acknowledgment of received bytes.  
-C) ✗ Urgent pointer: used to indicate urgent data, commonly used in modern TCP implementations. (Generally not used.)  
-D) ✓ Header length: specifies the length of the TCP header in 32-bit words.  
-
-**Correct:** A, B, D
-
-
-#### 13. Which of the following statements about ports and services are true?  
-A) ✓ Well-known ports are assigned to common services like HTTP and DNS.  
-B) ✗ Clients typically use well-known ports to initiate connections. (Clients usually use ephemeral ports ≥1024.)  
-C) ✓ Servers listen on specific ports to accept incoming connections.  
-D) ✗ The combination of client source port and server destination port is sufficient to identify a connection. (Must include IP addresses too.)  
+A) ✓ By averaging several recent SampleRTT measurements to smooth out variations.  
+B) ✗ By setting the timeout shorter than the estimated RTT to detect losses quickly. (Timeout must be longer than RTT.)  
+C) ✓ By ignoring retransmissions when calculating SampleRTT.  
+D) ✗ By using the most recent SampleRTT measurement only. (This is too variable.)  
 
 **Correct:** A, C
 
 
+#### 11. Which of the following statements about TCP connection states are correct?  
+A) ✓ The "timed wait" state ensures all packets have been received and acknowledged before closing.  
+B) ✗ The "close wait" state means the connection is fully closed. (It means the other side initiated close; local side still open.)  
+C) ✓ The "syn sent" state indicates the client has sent a SYN and is waiting for a SYN-ACK.  
+D) ✓ The "listen" state means the server is waiting for an incoming connection request.  
+
+**Correct:** A, C, D
+
+
+#### 12. Regarding TCP segment structure, which fields are correctly matched with their purpose?  
+A) ✓ Acknowledgment number: cumulative acknowledgment of received bytes.  
+B) ✓ Header length: specifies the length of the TCP header in 32-bit words.  
+C) ✓ Sequence number: identifies the byte stream number of the first data byte in the segment.  
+D) ✗ Urgent pointer: used to indicate urgent data, commonly used in modern TCP implementations. (Generally not used.)  
+
+**Correct:** A, B, C
+
+
+#### 13. Which of the following statements about ports and services are true?  
+A) ✗ The combination of client source port and server destination port is sufficient to identify a connection. (Must include IP addresses too.)  
+B) ✓ Servers listen on specific ports to accept incoming connections.  
+C) ✗ Clients typically use well-known ports to initiate connections. (Clients usually use ephemeral ports ≥1024.)  
+D) ✓ Well-known ports are assigned to common services like HTTP and DNS.  
+
+**Correct:** B, D
+
+
 #### 14. In the context of TCP reliable data transfer, which of the following are true?  
-A) ✓ TCP uses cumulative acknowledgments to confirm receipt of all bytes up to a certain point.  
+A) ✓ TCP guarantees delivery of data in the exact order it was sent.  
 B) ✗ TCP segments are retransmitted only when a timeout occurs, never on duplicate ACKs. (Duplicate ACKs can trigger retransmission.)  
-C) ✓ TCP discards corrupted packets detected by checksum errors.  
-D) ✓ TCP guarantees delivery of data in the exact order it was sent.  
+C) ✓ TCP uses cumulative acknowledgments to confirm receipt of all bytes up to a certain point.  
+D) ✓ TCP discards corrupted packets detected by checksum errors.  
 
 **Correct:** A, C, D
 
 
 #### 15. Which of the following describe the relationship between IP, TCP, and data link layers?  
-A) ✓ TCP segments are encapsulated within IP packets.  
+A) ✗ UDP headers are added after the IP header but before the data link header. (UDP header is part of IP payload, before data link header.)  
 B) ✓ IP packets are encapsulated within data link layer frames.  
-C) ✗ UDP headers are added after the IP header but before the data link header. (UDP header is part of IP payload, before data link header.)  
-D) ✗ The data link layer is responsible for routing packets across the Internet. (Routing is done by the network layer, IP.)  
+C) ✗ The data link layer is responsible for routing packets across the Internet. (Routing is done by the network layer, IP.)  
+D) ✓ TCP segments are encapsulated within IP packets.  
 
-**Correct:** A, B
+**Correct:** B, D

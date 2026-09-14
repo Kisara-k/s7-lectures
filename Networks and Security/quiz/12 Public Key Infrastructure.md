@@ -3,26 +3,26 @@
 ## Questions
 
 #### 1. Which of the following statements correctly describe symmetric cryptosystems?  
-A) The same key is used for both encryption and decryption.  
-B) They provide confidentiality, authentication, and nonrepudiation.  
-C) Key management becomes complex as the number of users increases.  
-D) They use a pair of mathematically related public and private keys.  
+A) Key management becomes complex as the number of users increases.  
+B) They use a pair of mathematically related public and private keys.  
+C) The same key is used for both encryption and decryption.  
+D) They provide confidentiality, authentication, and nonrepudiation.  
 
 #### 2. What are the main disadvantages of symmetric cryptosystems?  
-A) They require a secure mechanism to deliver and store keys.  
-B) They are slower than asymmetric cryptosystems.  
+A) They are slower than asymmetric cryptosystems.  
+B) They cannot provide confidentiality.  
 C) Each pair of users requires a unique key, leading to scalability issues.  
-D) They cannot provide confidentiality.  
+D) They require a secure mechanism to deliver and store keys.  
 
 #### 3. Which of the following algorithms are examples of symmetric key cryptosystems?  
 A) AES  
 B) RSA  
-C) DES  
-D) Elliptic Curve Cryptosystem (ECC)  
+C) Elliptic Curve Cryptosystem (ECC)  
+D) DES  
 
 #### 4. In asymmetric cryptosystems, which of the following are true?  
-A) The public key is kept secret by the owner.  
-B) The private key is mathematically related to the public key but cannot be derived from it.  
+A) The private key is mathematically related to the public key but cannot be derived from it.  
+B) The public key is kept secret by the owner.  
 C) Encryption and decryption use the same key.  
 D) The private key must be kept confidential to maintain security.  
 
@@ -34,27 +34,27 @@ D) Requires fewer keys as the number of users increases.
 
 #### 6. Which of the following are examples of asymmetric cryptosystems?  
 A) Diffie-Hellman  
-B) Triple-DES (3DES)  
-C) RSA  
-D) RC4  
+B) RSA  
+C) RC4  
+D) Triple-DES (3DES)  
 
 #### 7. What is the primary purpose of a Public Key Infrastructure (PKI)?  
-A) To securely distribute and verify the authenticity of public keys.  
-B) To replace symmetric cryptosystems entirely.  
+A) To replace symmetric cryptosystems entirely.  
+B) To store private keys for users.  
 C) To provide a framework of policies, protocols, and cryptographic mechanisms for secure communication.  
-D) To store private keys for users.  
+D) To securely distribute and verify the authenticity of public keys.  
 
 #### 8. Which of the following security services are provided by PKI?  
-A) Confidentiality  
-B) Access control  
-C) Integrity  
-D) Nonrepudiation  
+A) Integrity  
+B) Nonrepudiation  
+C) Confidentiality  
+D) Access control  
 
 #### 9. Which components are essential for the effective operation of a PKI?  
-A) Digital Certificates  
-B) Certificate Authorities (CAs)  
-C) Registration Authorities (RAs)  
-D) Symmetric keys  
+A) Certificate Authorities (CAs)  
+B) Registration Authorities (RAs)  
+C) Symmetric keys  
+D) Digital Certificates  
 
 #### 10. What information does a digital certificate typically contain?  
 A) The public key of the individual.  
@@ -63,34 +63,34 @@ C) Identifying information about the certificate holder.
 D) The digital signature of a trusted Certificate Authority.  
 
 #### 11. What role does a Certificate Authority (CA) play in PKI?  
-A) Verifies the identity of individuals requesting certificates.  
-B) Issues and digitally signs digital certificates.  
-C) Maintains and updates the Certificate Revocation List (CRL).  
-D) Acts as a broker between users and Registration Authorities.  
+A) Acts as a broker between users and Registration Authorities.  
+B) Maintains and updates the Certificate Revocation List (CRL).  
+C) Verifies the identity of individuals requesting certificates.  
+D) Issues and digitally signs digital certificates.  
 
 #### 12. Under which circumstances might a Certificate Authority revoke a digital certificate?  
 A) The certificate was issued based on false credentials.  
-B) The private key associated with the certificate has been compromised.  
+B) The certificate has expired.  
 C) The certificate holder requests a new certificate.  
-D) The certificate has expired.  
+D) The private key associated with the certificate has been compromised.  
 
 #### 13. What is the function of a Registration Authority (RA) in PKI?  
-A) Issues digital certificates directly to users.  
-B) Confirms the identity of individuals requesting certificates.  
-C) Initiates the certification process with the CA on behalf of users.  
-D) Maintains the Certificate Revocation List (CRL).  
+A) Maintains the Certificate Revocation List (CRL).  
+B) Issues digital certificates directly to users.  
+C) Confirms the identity of individuals requesting certificates.  
+D) Initiates the certification process with the CA on behalf of users.  
 
 #### 14. Which of the following terms correctly match their PKI definitions?  
-A) Issuer – The entity that issues a digital certificate.  
+A) Principal – Any entity possessing a public key.  
 B) Subject – The entity that verifies a digital certificate.  
-C) Principal – Any entity possessing a public key.  
-D) Verifier – The entity evaluating a chain of certificates.  
+C) Verifier – The entity evaluating a chain of certificates.  
+D) Issuer – The entity that issues a digital certificate.  
 
 #### 15. How do web browsers typically handle digital certificates?  
 A) They accept any digital certificate regardless of the issuer.  
 B) They are pre-configured to trust certificates signed by a list of known Certificate Authorities.  
 C) They verify certificates by contacting the Registration Authority directly.  
-D) They use the Certificate Revocation List (CRL) to check if a certificate is still valid.
+D) They use the Certificate Revocation List (CRL) to check if a certificate is still valid.  
 
 
 
@@ -99,39 +99,39 @@ D) They use the Certificate Revocation List (CRL) to check if a certificate is s
 ## Answers
 
 #### 1. Which of the following statements correctly describe symmetric cryptosystems?  
-A) ✓ The same key is used for both encryption and decryption.  
-B) ✗ They provide confidentiality, authentication, and nonrepudiation. (Only confidentiality is provided, not authentication or nonrepudiation.)  
-C) ✓ Key management becomes complex as the number of users increases.  
-D) ✗ They use a pair of mathematically related public and private keys. (This describes asymmetric cryptosystems.)  
+A) ✓ Key management becomes complex as the number of users increases.  
+B) ✗ They use a pair of mathematically related public and private keys. (This describes asymmetric cryptosystems.)  
+C) ✓ The same key is used for both encryption and decryption.  
+D) ✗ They provide confidentiality, authentication, and nonrepudiation. (Only confidentiality is provided, not authentication or nonrepudiation.)  
 
 **Correct:** A, C
 
 
 #### 2. What are the main disadvantages of symmetric cryptosystems?  
-A) ✓ They require a secure mechanism to deliver and store keys.  
-B) ✗ They are slower than asymmetric cryptosystems. (Symmetric systems are faster.)  
+A) ✗ They are slower than asymmetric cryptosystems. (Symmetric systems are faster.)  
+B) ✗ They cannot provide confidentiality. (They do provide confidentiality.)  
 C) ✓ Each pair of users requires a unique key, leading to scalability issues.  
-D) ✗ They cannot provide confidentiality. (They do provide confidentiality.)  
+D) ✓ They require a secure mechanism to deliver and store keys.  
 
-**Correct:** A, C
+**Correct:** C, D
 
 
 #### 3. Which of the following algorithms are examples of symmetric key cryptosystems?  
 A) ✓ AES is a symmetric key algorithm.  
 B) ✗ RSA is an asymmetric algorithm.  
-C) ✓ DES is a symmetric key algorithm.  
-D) ✗ ECC is an asymmetric algorithm.  
+C) ✗ ECC is an asymmetric algorithm.  
+D) ✓ DES is a symmetric key algorithm.  
 
-**Correct:** A, C
+**Correct:** A, D
 
 
 #### 4. In asymmetric cryptosystems, which of the following are true?  
-A) ✗ The public key is kept secret by the owner. (Public key is known to everyone.)  
-B) ✓ The private key is mathematically related to the public key but cannot be derived from it.  
+A) ✓ The private key is mathematically related to the public key but cannot be derived from it.  
+B) ✗ The public key is kept secret by the owner. (Public key is known to everyone.)  
 C) ✗ Encryption and decryption use the same key. (Different keys are used.)  
 D) ✓ The private key must be kept confidential to maintain security.  
 
-**Correct:** B, D
+**Correct:** A, D
 
 
 #### 5. What are the advantages of asymmetric cryptosystems over symmetric ones?  
@@ -145,38 +145,38 @@ D) ✗ Requires fewer keys as the number of users increases. (Key management is 
 
 #### 6. Which of the following are examples of asymmetric cryptosystems?  
 A) ✓ Diffie-Hellman is asymmetric.  
-B) ✗ Triple-DES (3DES) is symmetric.  
-C) ✓ RSA is asymmetric.  
-D) ✗ RC4 is symmetric.  
+B) ✓ RSA is asymmetric.  
+C) ✗ RC4 is symmetric.  
+D) ✗ Triple-DES (3DES) is symmetric.  
 
-**Correct:** A, C
+**Correct:** A, B
 
 
 #### 7. What is the primary purpose of a Public Key Infrastructure (PKI)?  
-A) ✓ To securely distribute and verify the authenticity of public keys.  
-B) ✗ To replace symmetric cryptosystems entirely. (PKI complements symmetric systems.)  
+A) ✗ To replace symmetric cryptosystems entirely. (PKI complements symmetric systems.)  
+B) ✗ To store private keys for users. (Private keys are kept by users, not PKI.)  
 C) ✓ To provide a framework of policies, protocols, and cryptographic mechanisms for secure communication.  
-D) ✗ To store private keys for users. (Private keys are kept by users, not PKI.)  
+D) ✓ To securely distribute and verify the authenticity of public keys.  
 
-**Correct:** A, C
+**Correct:** C, D
 
 
 #### 8. Which of the following security services are provided by PKI?  
-A) ✓ Confidentiality  
-B) ✓ Access control  
-C) ✓ Integrity  
-D) ✓ Nonrepudiation  
+A) ✓ Integrity  
+B) ✓ Nonrepudiation  
+C) ✓ Confidentiality  
+D) ✓ Access control  
 
 **Correct:** A, B, C, D
 
 
 #### 9. Which components are essential for the effective operation of a PKI?  
-A) ✓ Digital Certificates  
-B) ✓ Certificate Authorities (CAs)  
-C) ✓ Registration Authorities (RAs)  
-D) ✗ Symmetric keys (Not a PKI component)  
+A) ✓ Certificate Authorities (CAs)  
+B) ✓ Registration Authorities (RAs)  
+C) ✗ Symmetric keys (Not a PKI component)  
+D) ✓ Digital Certificates  
 
-**Correct:** A, B, C
+**Correct:** A, B, D
 
 
 #### 10. What information does a digital certificate typically contain?  
@@ -189,37 +189,37 @@ D) ✓ The digital signature of a trusted Certificate Authority.
 
 
 #### 11. What role does a Certificate Authority (CA) play in PKI?  
-A) ✗ Verifies the identity of individuals requesting certificates. (This is the RA’s role.)  
-B) ✓ Issues and digitally signs digital certificates.  
-C) ✓ Maintains and updates the Certificate Revocation List (CRL).  
-D) ✗ Acts as a broker between users and Registration Authorities. (RA acts as broker.)  
+A) ✗ Acts as a broker between users and Registration Authorities. (RA acts as broker.)  
+B) ✓ Maintains and updates the Certificate Revocation List (CRL).  
+C) ✗ Verifies the identity of individuals requesting certificates. (This is the RA’s role.)  
+D) ✓ Issues and digitally signs digital certificates.  
 
-**Correct:** B, C
+**Correct:** B, D
 
 
 #### 12. Under which circumstances might a Certificate Authority revoke a digital certificate?  
 A) ✓ The certificate was issued based on false credentials.  
-B) ✓ The private key associated with the certificate has been compromised.  
+B) ✗ The certificate has expired. (Expiration is natural, not revocation.)  
 C) ✗ The certificate holder requests a new certificate. (Requesting a new certificate is not a revocation reason.)  
-D) ✗ The certificate has expired. (Expiration is natural, not revocation.)  
+D) ✓ The private key associated with the certificate has been compromised.  
 
-**Correct:** A, B
+**Correct:** A, D
 
 
 #### 13. What is the function of a Registration Authority (RA) in PKI?  
-A) ✗ Issues digital certificates directly to users. (Only CA issues certificates.)  
-B) ✓ Confirms the identity of individuals requesting certificates.  
-C) ✓ Initiates the certification process with the CA on behalf of users.  
-D) ✗ Maintains the Certificate Revocation List (CRL). (CA maintains CRL.)  
+A) ✗ Maintains the Certificate Revocation List (CRL). (CA maintains CRL.)  
+B) ✗ Issues digital certificates directly to users. (Only CA issues certificates.)  
+C) ✓ Confirms the identity of individuals requesting certificates.  
+D) ✓ Initiates the certification process with the CA on behalf of users.  
 
-**Correct:** B, C
+**Correct:** C, D
 
 
 #### 14. Which of the following terms correctly match their PKI definitions?  
-A) ✓ Issuer – The entity that issues a digital certificate.  
+A) ✓ Principal – Any entity possessing a public key.  
 B) ✗ Subject – The entity that verifies a digital certificate. (Subject is the certificate holder.)  
-C) ✓ Principal – Any entity possessing a public key.  
-D) ✓ Verifier – The entity evaluating a chain of certificates.  
+C) ✓ Verifier – The entity evaluating a chain of certificates.  
+D) ✓ Issuer – The entity that issues a digital certificate.  
 
 **Correct:** A, C, D
 
