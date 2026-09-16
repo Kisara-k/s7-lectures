@@ -3,16 +3,16 @@
 ## Questions
 
 #### 1. Which of the following statements accurately reflect the concept of "Recognition of Individuality" in organizational behaviour?  
-A) Individual differences can lead to both creativity and conflict in the workplace.  
-B) Managers should treat all employees identically to maintain fairness.  
-C) Understanding one’s own personality is important for managing workplace relationships.  
+A) Managers should treat all employees identically to maintain fairness.  
+B) Understanding one’s own personality is important for managing workplace relationships.  
+C) Individual differences can lead to both creativity and conflict in the workplace.  
 D) External changes have little impact on employees’ attitudes and perceptions.  
 
 #### 2. According to the dispositional approach to attitude formation, which of the following is true?  
-A) Attitudes are stable predispositions similar to personality traits.  
-B) Attitudes change significantly after a person changes jobs.  
-C) Some people tend to be happy or unhappy at work regardless of the job itself.  
-D) Situational factors are the primary determinants of attitudes.  
+A) Some people tend to be happy or unhappy at work regardless of the job itself.  
+B) Situational factors are the primary determinants of attitudes.  
+C) Attitudes are stable predispositions similar to personality traits.  
+D) Attitudes change significantly after a person changes jobs.  
 
 #### 3. The social-information-processing approach to attitude formation emphasizes that:  
 A) Attitudes are solely based on individual personality traits.  
@@ -21,106 +21,106 @@ C) Attitudes are fixed and do not change over time.
 D) Attitudes are formed independently of social influences.  
 
 #### 4. Which of the following best describes the relationship between cognition, affect, and behaviour in attitudes?  
-A) Cognition always causes affect, which then causes behaviour.  
+A) People always fully understand the reasons behind their attitudes and actions.  
 B) These components are inseparable and influence each other in complex ways.  
-C) Behaviour is independent of cognition and affect.  
-D) People always fully understand the reasons behind their attitudes and actions.  
+C) Cognition always causes affect, which then causes behaviour.  
+D) Behaviour is independent of cognition and affect.  
 
 #### 5. Cognitive dissonance occurs when:  
-A) An individual’s behaviour is consistent with their attitudes.  
+A) Behavioural justification is unnecessary.  
 B) There is incompatibility between attitudes or between behaviour and attitudes.  
-C) People feel no tension about their actions.  
-D) Behavioural justification is unnecessary.  
+C) An individual’s behaviour is consistent with their attitudes.  
+D) People feel no tension about their actions.  
 
 #### 6. Which of the following are considered major job attitudes studied in organizational behaviour?  
-A) Job satisfaction  
-B) Job involvement  
-C) Organizational commitment  
-D) Personality traits  
+A) Organizational commitment  
+B) Job satisfaction  
+C) Personality traits  
+D) Job involvement  
 
 #### 7. Job satisfaction is best described as:  
-A) A simple evaluation of pay only.  
-B) A positive feeling resulting from an evaluation of various job characteristics.  
+A) A fixed trait that does not change over time.  
+B) A simple evaluation of pay only.  
 C) An emotional response influenced by the discrepancy between job expectations and outcomes.  
-D) A fixed trait that does not change over time.  
+D) A positive feeling resulting from an evaluation of various job characteristics.  
 
 #### 8. Which of the following job dimensions are most salient in influencing job satisfaction?  
-A) Work itself  
-B) Pay  
-C) Promotional opportunities  
-D) Employee’s family background  
+A) Pay  
+B) Promotional opportunities  
+C) Employee’s family background  
+D) Work itself  
 
 #### 9. What are some limitations of using rating scales to measure job satisfaction?  
 A) Respondents may not be willing or able to accurately describe their feelings.  
-B) Questionnaire items may be interpreted differently by different people.  
-C) Rating scales provide objective and unbiased data.  
-D) Rating scales are the only method to assess job satisfaction.  
+B) Rating scales are the only method to assess job satisfaction.  
+C) Questionnaire items may be interpreted differently by different people.  
+D) Rating scales provide objective and unbiased data.  
 
 #### 10. The exit-voice-loyalty-neglect framework is used to understand:  
-A) How employees respond to job satisfaction.  
+A) The process of job promotion.  
 B) The consequences of employee dissatisfaction.  
-C) The process of job promotion.  
-D) The formation of attitudes.  
+C) The formation of attitudes.  
+D) How employees respond to job satisfaction.  
 
 #### 11. Job involvement refers to:  
-A) The extent to which a person is interested in and committed to their assigned tasks.  
-B) The degree to which employees feel empowered to influence their work environment.  
-C) The emotional attachment to the organization’s goals.  
-D) The amount of time spent at work.  
+A) The degree to which employees feel empowered to influence their work environment.  
+B) The amount of time spent at work.  
+C) The extent to which a person is interested in and committed to their assigned tasks.  
+D) The emotional attachment to the organization’s goals.  
 
 #### 12. Psychological empowerment includes beliefs about:  
-A) Influence over work environment  
-B) Competence in job tasks  
-C) Meaningfulness of the job  
-D) Salary and benefits  
+A) Meaningfulness of the job  
+B) Salary and benefits  
+C) Influence over work environment  
+D) Competence in job tasks  
 
 #### 13. Organizational commitment is characterized by:  
 A) Passive loyalty to the company.  
-B) Strong belief in and acceptance of organizational goals and values.  
-C) Willingness to exert effort on behalf of the organization.  
-D) Desire to maintain membership in the organization.  
+B) Desire to maintain membership in the organization.  
+C) Strong belief in and acceptance of organizational goals and values.  
+D) Willingness to exert effort on behalf of the organization.  
 
 #### 14. Perceived organizational support (POS) is influenced by:  
 A) Fairness of rewards  
-B) Employee voice in decisions  
+B) Employee’s job title  
 C) Supportiveness of supervisors  
-D) Employee’s job title  
+D) Employee voice in decisions  
 
 #### 15. Which of the following outcomes are associated with high perceived organizational support?  
 A) Increased citizenship behaviours  
-B) Higher levels of tardiness  
+B) Lower employee engagement  
 C) Better customer service  
-D) Lower employee engagement  
+D) Higher levels of tardiness  
 
 #### 16. Employee engagement is best described as:  
-A) The amount of time an employee spends at work.  
+A) A passive attitude toward job tasks.  
 B) An individual’s involvement, satisfaction, and enthusiasm for their work.  
-C) A passive attitude toward job tasks.  
+C) The amount of time an employee spends at work.  
 D) A deep connection to the company and passion for work.  
 
 #### 17. Organizational citizenship behaviours (OCBs) are:  
 A) Required tasks outlined in an employee’s job description.  
 B) Discretionary actions that go beyond formal job requirements.  
-C) Motivated by personal desire to help the organization.  
-D) Actions that increase the need for supervision.  
+C) Actions that increase the need for supervision.  
+D) Motivated by personal desire to help the organization.  
 
 #### 18. Which of the following are benefits of positive organizational citizenship behaviours?  
-A) Reduced need for supervision  
-B) Improved workplace morale  
-C) Increased managerial workload  
-D) Cost-saving suggestions  
+A) Increased managerial workload  
+B) Reduced need for supervision  
+C) Cost-saving suggestions  
+D) Improved workplace morale  
 
 #### 19. The overlap among various job attitudes can be explained by:  
-A) The distinctiveness of each attitude with no common factors.  
-B) The influence of employee personality on multiple attitudes.  
-C) The fact that attitudes are unrelated to each other.  
+A) The influence of employee personality on multiple attitudes.  
+B) The fact that attitudes are unrelated to each other.  
+C) The distinctiveness of each attitude with no common factors.  
 D) The similarity in how attitudes are measured.  
 
 #### 20. Which of the following individual differences are relevant to understanding attitudes in the workplace?  
-A) Ethnic origin and gender  
-B) Early family experiences and social-cultural factors  
+A) Job title and salary only  
+B) Ethnic origin and gender  
 C) Intelligence and personality traits  
-D) Job title and salary only
+D) Early family experiences and social-cultural factors  
 
 
 
@@ -129,19 +129,19 @@ D) Job title and salary only
 ## Answers
 
 #### 1. Which of the following statements accurately reflect the concept of "Recognition of Individuality" in organizational behaviour?  
-A) ✓ Individual differences can lead to both creativity and conflict in the workplace.  
-B) ✗ Treating all employees identically ignores individual uniqueness and can reduce effectiveness.  
-C) ✓ Understanding one’s own personality is important for managing workplace relationships.  
+A) ✗ Treating all employees identically ignores individual uniqueness and can reduce effectiveness.  
+B) ✓ Understanding one’s own personality is important for managing workplace relationships.  
+C) ✓ Individual differences can lead to both creativity and conflict in the workplace.  
 D) ✗ External changes do impact employees’ attitudes and perceptions significantly.  
 
-**Correct:** A, C
+**Correct:** B, C
 
 
 #### 2. According to the dispositional approach to attitude formation, which of the following is true?  
-A) ✓ Attitudes are stable predispositions similar to personality traits.  
-B) ✗ Attitudes tend to remain stable even after job changes, not change significantly.  
-C) ✓ Some people tend to be happy or unhappy at work regardless of the job itself.  
-D) ✗ Situational factors are emphasized by the situational approach, not dispositional.  
+A) ✓ Some people tend to be happy or unhappy at work regardless of the job itself.  
+B) ✗ Situational factors are emphasized by the situational approach, not dispositional.  
+C) ✓ Attitudes are stable predispositions similar to personality traits.  
+D) ✗ Attitudes tend to remain stable even after job changes, not change significantly.  
 
 **Correct:** A, C
 
@@ -156,117 +156,117 @@ D) ✗ Social influences are central, not independent formation.
 
 
 #### 4. Which of the following best describes the relationship between cognition, affect, and behaviour in attitudes?  
-A) ✗ Cognition does not always cause affect, and affect does not always cause behaviour in a linear way.  
+A) ✗ People often do not fully understand their own attitudes and actions.  
 B) ✓ These components are inseparable and influence each other in complex ways.  
-C) ✗ Behaviour is influenced by cognition and affect, not independent.  
-D) ✗ People often do not fully understand their own attitudes and actions.  
+C) ✗ Cognition does not always cause affect, and affect does not always cause behaviour in a linear way.  
+D) ✗ Behaviour is influenced by cognition and affect, not independent.  
 
 **Correct:** B
 
 
 #### 5. Cognitive dissonance occurs when:  
-A) ✗ Cognitive dissonance arises from inconsistency, not consistency.  
+A) ✗ Behavioural justification is needed to reduce dissonance.  
 B) ✓ There is incompatibility between attitudes or between behaviour and attitudes.  
-C) ✗ People feel tension, not absence of tension, when dissonance occurs.  
-D) ✗ Behavioural justification is needed to reduce dissonance.  
+C) ✗ Cognitive dissonance arises from inconsistency, not consistency.  
+D) ✗ People feel tension, not absence of tension, when dissonance occurs.  
 
 **Correct:** B
 
 
 #### 6. Which of the following are considered major job attitudes studied in organizational behaviour?  
-A) ✓ Job satisfaction is a major job attitude.  
-B) ✓ Job involvement is a major job attitude.  
-C) ✓ Organizational commitment is a major job attitude.  
-D) ✗ Personality traits are individual differences, not job attitudes.  
+A) ✓ Organizational commitment is a major job attitude.  
+B) ✓ Job satisfaction is a major job attitude.  
+C) ✗ Personality traits are individual differences, not job attitudes.  
+D) ✓ Job involvement is a major job attitude.  
 
-**Correct:** A, B, C
+**Correct:** A, B, D
 
 
 #### 7. Job satisfaction is best described as:  
-A) ✗ It involves more than pay; it is a complex evaluation of job characteristics.  
-B) ✓ A positive feeling resulting from an evaluation of various job characteristics.  
+A) ✗ Job satisfaction can change and is not a fixed trait.  
+B) ✗ It involves more than pay; it is a complex evaluation of job characteristics.  
 C) ✓ An emotional response influenced by the discrepancy between job expectations and outcomes.  
-D) ✗ Job satisfaction can change and is not a fixed trait.  
+D) ✓ A positive feeling resulting from an evaluation of various job characteristics.  
 
-**Correct:** B, C
+**Correct:** C, D
 
 
 #### 8. Which of the following job dimensions are most salient in influencing job satisfaction?  
-A) ✓ Work itself is a key dimension.  
-B) ✓ Pay is a key dimension.  
-C) ✓ Promotional opportunities are important.  
-D) ✗ Family background is not a job dimension affecting satisfaction.  
+A) ✓ Pay is a key dimension.  
+B) ✓ Promotional opportunities are important.  
+C) ✗ Family background is not a job dimension affecting satisfaction.  
+D) ✓ Work itself is a key dimension.  
 
-**Correct:** A, B, C
+**Correct:** A, B, D
 
 
 #### 9. What are some limitations of using rating scales to measure job satisfaction?  
 A) ✓ Respondents may not be willing or able to accurately describe their feelings.  
-B) ✓ Questionnaire items may be interpreted differently by different people.  
-C) ✗ Rating scales can be biased and subjective, not purely objective.  
-D) ✗ Rating scales are common but not the only method to assess satisfaction.  
+B) ✗ Rating scales are common but not the only method to assess satisfaction.  
+C) ✓ Questionnaire items may be interpreted differently by different people.  
+D) ✗ Rating scales can be biased and subjective, not purely objective.  
 
-**Correct:** A, B
+**Correct:** A, C
 
 
 #### 10. The exit-voice-loyalty-neglect framework is used to understand:  
-A) ✗ It focuses on responses to dissatisfaction, not satisfaction.  
+A) ✗ It does not describe promotion processes.  
 B) ✓ The consequences of employee dissatisfaction.  
-C) ✗ It does not describe promotion processes.  
-D) ✗ It is not about attitude formation.  
+C) ✗ It is not about attitude formation.  
+D) ✗ It focuses on responses to dissatisfaction, not satisfaction.  
 
 **Correct:** B
 
 
 #### 11. Job involvement refers to:  
-A) ✓ The extent to which a person is interested in and committed to their assigned tasks.  
-B) ✗ Psychological empowerment includes influence beliefs but is distinct from job involvement.  
-C) ✗ Emotional attachment to organizational goals is organizational commitment.  
-D) ✗ Time spent at work alone does not define job involvement.  
+A) ✗ Psychological empowerment includes influence beliefs but is distinct from job involvement.  
+B) ✗ Time spent at work alone does not define job involvement.  
+C) ✓ The extent to which a person is interested in and committed to their assigned tasks.  
+D) ✗ Emotional attachment to organizational goals is organizational commitment.  
 
-**Correct:** A
+**Correct:** C
 
 
 #### 12. Psychological empowerment includes beliefs about:  
-A) ✓ Influence over work environment is part of empowerment.  
-B) ✓ Competence in job tasks is included.  
-C) ✓ Meaningfulness of the job is a key element.  
-D) ✗ Salary and benefits are not part of psychological empowerment.  
+A) ✓ Meaningfulness of the job is a key element.  
+B) ✗ Salary and benefits are not part of psychological empowerment.  
+C) ✓ Influence over work environment is part of empowerment.  
+D) ✓ Competence in job tasks is included.  
 
-**Correct:** A, B, C
+**Correct:** A, C, D
 
 
 #### 13. Organizational commitment is characterized by:  
 A) ✗ It goes beyond passive loyalty; it involves active attachment.  
-B) ✓ Strong belief in and acceptance of organizational goals and values.  
-C) ✓ Willingness to exert effort on behalf of the organization.  
-D) ✓ Desire to maintain membership in the organization.  
+B) ✓ Desire to maintain membership in the organization.  
+C) ✓ Strong belief in and acceptance of organizational goals and values.  
+D) ✓ Willingness to exert effort on behalf of the organization.  
 
 **Correct:** B, C, D
 
 
 #### 14. Perceived organizational support (POS) is influenced by:  
 A) ✓ Fairness of rewards affects POS.  
-B) ✓ Employee voice in decisions increases POS.  
+B) ✗ Job title does not directly influence POS.  
 C) ✓ Supportiveness of supervisors enhances POS.  
-D) ✗ Job title does not directly influence POS.  
+D) ✓ Employee voice in decisions increases POS.  
 
-**Correct:** A, B, C
+**Correct:** A, C, D
 
 
 #### 15. Which of the following outcomes are associated with high perceived organizational support?  
 A) ✓ Increased citizenship behaviours.  
-B) ✗ Higher tardiness is associated with low POS, not high.  
+B) ✗ Lower employee engagement is contrary to high POS effects.  
 C) ✓ Better customer service.  
-D) ✗ Lower employee engagement is contrary to high POS effects.  
+D) ✗ Higher tardiness is associated with low POS, not high.  
 
 **Correct:** A, C
 
 
 #### 16. Employee engagement is best described as:  
-A) ✗ Time spent is not the same as engagement.  
+A) ✗ Passive attitude is disengagement, not engagement.  
 B) ✓ An individual’s involvement, satisfaction, and enthusiasm for their work.  
-C) ✗ Passive attitude is disengagement, not engagement.  
+C) ✗ Time spent is not the same as engagement.  
 D) ✓ A deep connection to the company and passion for work.  
 
 **Correct:** B, D
@@ -275,34 +275,34 @@ D) ✓ A deep connection to the company and passion for work.
 #### 17. Organizational citizenship behaviours (OCBs) are:  
 A) ✗ OCBs are discretionary, not required tasks.  
 B) ✓ Discretionary actions that go beyond formal job requirements.  
-C) ✓ Motivated by personal desire to help the organization.  
-D) ✗ OCBs reduce the need for supervision, not increase it.  
+C) ✗ OCBs reduce the need for supervision, not increase it.  
+D) ✓ Motivated by personal desire to help the organization.  
 
-**Correct:** B, C
+**Correct:** B, D
 
 
 #### 18. Which of the following are benefits of positive organizational citizenship behaviours?  
-A) ✓ Reduced need for supervision.  
-B) ✓ Improved workplace morale.  
-C) ✗ Increased managerial workload is not a benefit of OCBs.  
-D) ✓ Cost-saving suggestions.  
+A) ✗ Increased managerial workload is not a benefit of OCBs.  
+B) ✓ Reduced need for supervision.  
+C) ✓ Cost-saving suggestions.  
+D) ✓ Improved workplace morale.  
 
-**Correct:** A, B, D
+**Correct:** B, C, D
 
 
 #### 19. The overlap among various job attitudes can be explained by:  
-A) ✗ Attitudes overlap, so they are not completely distinct.  
-B) ✓ Employee personality influences multiple attitudes, causing overlap.  
-C) ✗ Attitudes are related, not unrelated.  
+A) ✓ Employee personality influences multiple attitudes, causing overlap.  
+B) ✗ Attitudes are related, not unrelated.  
+C) ✗ Attitudes overlap, so they are not completely distinct.  
 D) ✗ Measurement similarity is not the main reason for overlap.  
 
-**Correct:** B
+**Correct:** A
 
 
 #### 20. Which of the following individual differences are relevant to understanding attitudes in the workplace?  
-A) ✓ Ethnic origin and gender affect attitudes.  
-B) ✓ Early family experiences and social-cultural factors influence attitudes.  
+A) ✗ Job title and salary are job factors, not individual differences.  
+B) ✓ Ethnic origin and gender affect attitudes.  
 C) ✓ Intelligence and personality traits are relevant individual differences.  
-D) ✗ Job title and salary are job factors, not individual differences.  
+D) ✓ Early family experiences and social-cultural factors influence attitudes.  
 
-**Correct:** A, B, C
+**Correct:** B, C, D
