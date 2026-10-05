@@ -26,13 +26,11 @@ B) Exploration helps prevent the agent from getting stuck in suboptimal policies
 C) The probability of selecting a greedy action is always exactly 1 - ε  
 D) With probability ε, a random action is selected from all possible actions including the greedy one  
 
-#### 5. Consider the Q-learning update rule for nondeterministic environments:  
-Q̂n(s, a) ← (1 - αn) Q̂n-1(s, a) + αn [r + γ maxa' Q̂n-1(s', a')]  
-Which of the following are true about the learning rate αn?  
+#### 5. For the Q-learning update Q̂n(s, a) ← (1 - αn) Q̂n-1(s, a) + αn [r + γ maxa' Q̂n-1(s', a')], which statements about the learning rate αn are true?  
 A) αn decreases as the number of visits to (s, a) increases  
-B) αn is constant throughout training to ensure stable learning  
-C) αn controls how much new experience influences the Q-value update  
-D) αn must be zero for convergence of Q-learning  
+B) αn must be zero for convergence of Q-learning  
+C) αn is constant throughout training to ensure stable learning  
+D) αn controls how much new experience influences the Q-value update  
 
 #### 6. Which of the following are true about the reinforcement learning problem’s goal?  
 A) To learn a policy π that maximizes the expected discounted return from any state  
@@ -106,15 +104,13 @@ D) ✓ With probability ε, a random action is selected from all possible action
 **Correct:** B, D
 
 
-#### 5. Consider the Q-learning update rule for nondeterministic environments:  
-Q̂n(s, a) ← (1 - αn) Q̂n-1(s, a) + αn [r + γ maxa' Q̂n-1(s', a')]  
-Which of the following are true about the learning rate αn?  
+#### 5. For the Q-learning update Q̂n(s, a) ← (1 - αn) Q̂n-1(s, a) + αn [r + γ maxa' Q̂n-1(s', a')], which statements about the learning rate αn are true?  
 A) ✓ αn decreases as the number of visits to (s, a) increases — αn = 1/(1 + visits) decreases over time.  
-B) ✗ αn is constant throughout training to ensure stable learning — Constant α can prevent convergence.  
-C) ✓ αn controls how much new experience influences the Q-value update — It weights new vs old information.  
-D) ✗ αn must be zero for convergence of Q-learning — αn must be positive but decrease appropriately.  
+B) ✗ αn must be zero for convergence of Q-learning — αn must be positive but decrease appropriately.  
+C) ✗ αn is constant throughout training to ensure stable learning — Constant α can prevent convergence.  
+D) ✓ αn controls how much new experience influences the Q-value update — It weights new vs old information.  
 
-**Correct:** A, C
+**Correct:** A, D
 
 
 #### 6. Which of the following are true about the reinforcement learning problem’s goal?  

@@ -57,6 +57,27 @@ def shuffle_file(path: Path):
     q_matches = list(q_block_re.finditer(questions_text))
     a_matches = list(a_block_re.finditer(answers_text))
 
+    q_numbers = re.findall(r'^#### (\d+)\.', questions_text, re.MULTILINE)
+    a_numbers = re.findall(r'^#### (\d+)\.', answers_text, re.MULTILINE)
+    parsed_q_numbers = [re.match(r'#### (\d+)\.', m.group(1)).group(1) for m in q_matches]
+    parsed_a_numbers = [re.match(r'#### (\d+)\.', m.group(1)).group(1) for m in a_matches]
+
+    parse_errors = False
+    for number in (Counter(q_numbers) - Counter(parsed_q_numbers)).elements():
+        print(
+            f"LINT {path}: Q{number} question block can't be parsed; "
+            "options must immediately follow the heading"
+        )
+        parse_errors = True
+    for number in (Counter(a_numbers) - Counter(parsed_a_numbers)).elements():
+        print(
+            f"LINT {path}: Q{number} answer block can't be parsed; options must "
+            "immediately follow the heading and precede the **Correct:** line"
+        )
+        parse_errors = True
+    if parse_errors:
+        return False, None
+
     if not q_matches:
         print(f"LINT {path}: no question option blocks found")
         return False, None
