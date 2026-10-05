@@ -11,6 +11,7 @@ to reshuffle all files to a new deterministic order.
 """
 import hashlib
 import re
+from collections import Counter, defaultdict
 from pathlib import Path
 
 
@@ -33,13 +34,13 @@ def _sort_key(text: str) -> str:
     return hashlib.sha256(f"{SEED}\0{text}".encode()).hexdigest()
 
 
-def shuffle_file(path: Path) -> bool:
+def shuffle_file(path: Path):
     text = path.read_text(encoding='utf-8')
 
     split_m = re.search(r'^## Answers[ \t]*$', text, re.MULTILINE)
     if not split_m:
         print(f"LINT {path}: missing '## Answers' section")
-        return False
+        return False, None
 
     questions_text = text[:split_m.start()]
     answers_text = text[split_m.start():]
@@ -58,16 +59,17 @@ def shuffle_file(path: Path) -> bool:
 
     if not q_matches:
         print(f"LINT {path}: no question option blocks found")
-        return False
+        return False, None
     if not a_matches:
         print(f"LINT {path}: no answer blocks found")
-        return False
+        return False, None
     if len(q_matches) != len(a_matches):
         print(f"LINT {path}: {len(q_matches)} question blocks but {len(a_matches)} answer blocks")
-        return False
+        return False, None
 
     q_replacements = []
     a_replacements = []
+    correct_answer_counts = Counter()
 
     for i, (qm, am) in enumerate(zip(q_matches, a_matches), 1):
         q_opts = parse_option_block([l.rstrip('\n') for l in qm.group(2).splitlines(keepends=True)])
@@ -75,22 +77,23 @@ def shuffle_file(path: Path) -> bool:
 
         if q_opts is None or a_opts is None:
             print(f"LINT {path}: Q{i} option lines don't match expected format")
-            return False
+            return False, None
         if len(q_opts) != len(a_opts):
             print(f"LINT {path}: Q{i} has {len(q_opts)} question options but {len(a_opts)} answer options")
-            return False
+            return False, None
 
         q_letters = [o[0] for o in q_opts]
         a_letters = [o[0] for o in a_opts]
         if q_letters != a_letters:
             print(f"LINT {path}: Q{i} option letters don't match between sections: {q_letters} vs {a_letters}")
-            return False
+            return False, None
 
         correct_m = re.search(r'\*\*Correct:\*\*\s*(.+)', am.group(3))
         if not correct_m:
             print(f"LINT {path}: Q{i} can't parse **Correct:** line")
-            return False
+            return False, None
         correct_letters = set(re.findall(r'[A-Z]', correct_m.group(1)))
+        correct_answer_counts[len(correct_letters)] += 1
 
         perm = sorted(range(len(q_opts)), key=lambda i: _sort_key(q_opts[i][1].rstrip()))
 
@@ -118,9 +121,9 @@ def shuffle_file(path: Path) -> bool:
 
     new_text = new_questions_text + new_answers_text
     if new_text == text:
-        return None  # parsed fine, already in hashed order
+        return None, correct_answer_counts  # parsed fine, already in hashed order
     path.write_text(new_text, encoding='utf-8')
-    return True
+    return True, correct_answer_counts
 
 
 def _apply_replacements(text, replacements):
@@ -132,8 +135,12 @@ def _apply_replacements(text, replacements):
 def main():
     files = sorted(Path('.').rglob('quiz*/*.md'))
     changed = unchanged = fail = 0
+    folder_counts = defaultdict(Counter)
     for f in files:
-        result = shuffle_file(f)
+        counts = folder_counts[f.parent]
+        result, answer_counts = shuffle_file(f)
+        if answer_counts is not None:
+            counts.update(answer_counts)
         if result is True:
             changed += 1
         elif result is False:
@@ -142,6 +149,15 @@ def main():
             unchanged += 1
     parts = [f"{changed} shuffled", f"{unchanged} unchanged due to seed", f"{fail} skipped due to lint errors"]
     print(", ".join(parts) + ".")
+    folder_width = max((len(str(folder)) for folder in folder_counts), default=0)
+    print(f"{'Folder':<{folder_width}} : Total | Percent with 1, 2, 3, 4 correct answers")
+    for folder, counts in folder_counts.items():
+        total = sum(counts.values())
+        percentages = " ".join(
+            f"{(100 * counts[n] / total if total else 0):5.1f}"
+            for n in range(1, 5)
+        )
+        print(f"{str(folder):<{folder_width}} : {total:5d} | {percentages}")
 
 
 if __name__ == '__main__':
